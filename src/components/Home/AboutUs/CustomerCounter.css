@@ -1,0 +1,17 @@
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  margin-top: px;
+}
+
+.counter {
+  margin: 0 50px;
+}
+
+.counter h2 {
+  font-size: 18px;
+  margin-top: 0;
+}

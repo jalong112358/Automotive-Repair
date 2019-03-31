@@ -1,0 +1,118 @@
+.quote-form {
+  width: auto;
+  padding: 100px 0;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.quote-form h1 {
+  border-left: 10px solid rgb(237, 132, 52);
+  padding-left: 10px;
+}
+
+.quote-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.user-info {
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.user-info-input {
+  margin-right: 10px;
+}
+
+.user-info-input input {
+  width: 200px;
+  height: 25px;
+  padding: 0 7px;
+  margin-top: 7px;
+}
+
+.car-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.car-select-input {
+  margin-right: 10px;
+}
+
+.car-select select {
+  width: 200px;
+  height: 25px;
+
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+
+.quote-form textarea {
+  width: 100%;
+  height: 100px;
+  max-width: 650px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 25px;
+  background: rgb(237, 132, 52);
+  border: none;
+  font-size: 12px;
+}
+
+.submit-btn:hover {
+  background: rgb(206, 115, 45);
+}
+
+@media (max-width: 768px) {
+  .quote-form {
+    width: 100%;
+    padding: 50px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .user-info {
+    flex-direction: column;
+    width: 100%;
+  }
+  .user-info-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .user-info-input input {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .car-select {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .car-select-input {
+    width: 100%;
+  }
+  .car-select-input select {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}

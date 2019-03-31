@@ -1,0 +1,134 @@
+.about-page {
+  width: 100%;
+}
+
+.about-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.about-banner h1 {
+  color: white;
+  font-weight: 300;
+}
+.about-banner h1 span {
+  font-weight: 500;
+}
+
+.about-general {
+  width: 100%;
+  height: 500px;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(233, 233, 233);
+  background-position: 80% 0%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-general-content {
+  width: 100%;
+  max-width: 700px;
+  padding: 50px 0;
+}
+
+.about-general-content h1 {
+  border-left: 10px solid rgb(237, 132, 52);
+  padding-left: 10px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.about-general-content h1 span {
+  font-weight: 500;
+}
+
+.about-general-content p {
+  margin-bottom: 15px;
+}
+
+.about-general-content button {
+  background: rgb(237, 132, 52);
+  border: none;
+  width: 100px;
+  height: 25px;
+}
+
+.about-general-content button:hover {
+  background: rgb(199, 111, 43);
+}
+
+.about-general-content button a {
+  text-decoration: none;
+}
+
+.container-arrow {
+  width: 40px;
+  height: 40px;
+  background: rgb(233, 233, 233);
+  margin: 0 auto;
+  margin-top: -20px;
+  transform: rotate(45deg);
+}
+
+.team {
+  padding: 100px 0;
+  text-align: center;
+}
+.team h1 {
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.team h1 span {
+  color: rgb(199, 111, 43);
+  font-weight: 500;
+}
+.team p {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.team-members {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 50px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 250px;
+
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-member .img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .about-general {
+    background-size: cover;
+    background-position: left;
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,28 @@
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.chevron-bg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgb(237, 132, 52);
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 150px 50%);
+}
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .chevron-bg {
+    width: 100%;
+    height: 300px;
+    background: rgb(237, 132, 52);
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 50% 25%, 100% 0, 100% 100%, 0 100%);
+  }
+}

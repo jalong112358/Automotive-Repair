@@ -1,0 +1,82 @@
+.services {
+  display: block;
+  margin: 0 auto;
+  margin-top: -100px;
+  width: 100%;
+  max-width: 2000px;
+  color: #797979;
+  background-color: rgb(240, 240, 240);
+
+  padding-bottom: 150px;
+  padding-top: 200px;
+
+  text-align: center;
+}
+
+.services h1 {
+  color: #797979;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.services h1 span {
+  color: rgb(237, 132, 52);
+  font-weight: 500;
+}
+
+.services h3 {
+  color: rgb(237, 132, 52);
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.services h4 {
+  font-weight: 100;
+  margin-top: 25px;
+}
+
+.services-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.services-cards {
+  margin: 25px;
+  width: 250px;
+  padding: 25px;
+  text-align: center;
+  background: white;
+  color: #797979;
+  box-shadow: 10px 10px 11px -6px rgba(0, 0, 0, 0.27);
+}
+
+.service-icon-wrapper {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.service-icon-wrapper img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.services button {
+  width: 200px;
+  height: auto;
+  padding: 5px 0;
+
+  border: 1px solid rgb(237, 132, 52);
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(237, 132, 52);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 300;
+}
